@@ -42,11 +42,22 @@
       text-decoration: none;
       font-size: 17px;
   }
+
+   .circle-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: left; 
+        }
   </style>
   </head>
   
   <body>
-    <img height="300" src="headshot.jpg" alt="Elisia Zeng's headshot"/>
-    <p><a href="ElisiaZeng_Resume.pdf" target="_blank">Resume</a></p>
+    <div class="topnav">
+  	<a class="navigation" href="ElisiaZeng_Resume.pdf" target="_blank">Resume</a>
+    </div>
+    <img height="300" src="headshot.jpg" alt="Elisia Zeng's headshot" class="circle-img"/>
+
   </body>
 </html>
